@@ -42,10 +42,10 @@ $(document).ready(function () {
 
   // <!-- emailjs to mail contact form data -->
   $("#contact-form").submit(function (event) {
-    emailjs.init("user_TTDmetQLYgWCLzHTDgqxm");
+    emailjs.init("EcXoeKWkG0CUWqq1P");
 
     emailjs
-      .sendForm("contact_service", "template_contact", "#contact-form")
+      .sendForm("service_8tu49rl", "template_96rn47f", "#contact-form")
       .then(
         function (response) {
           console.log("SUCCESS!", response.status, response.text);
@@ -214,7 +214,6 @@ srtop.reveal(".home .image", { delay: 400 });
 srtop.reveal(".home .linkedin", { interval: 600 });
 srtop.reveal(".home .github", { interval: 800 });
 srtop.reveal(".home .twitter", { interval: 1000 });
-srtop.reveal(".home .telegram", { interval: 600 });
 srtop.reveal(".home .instagram", { interval: 600 });
 srtop.reveal(".home .dev", { interval: 600 });
 
