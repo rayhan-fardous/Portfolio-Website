@@ -60,6 +60,11 @@ $(document).ready(function () {
     event.preventDefault();
   });
   // <!-- emailjs to mail contact form data -->
+
+  // enforce lowercase for the email input field
+  $("#email-input").on("input", function () {
+    $(this).val($(this).val().toLowerCase());
+  });
 });
 
 document.addEventListener("visibilitychange", function () {
@@ -74,7 +79,7 @@ document.addEventListener("visibilitychange", function () {
 
 // <!-- typed js effect starts -->
 var typed = new Typed(".typing-text", {
-  strings: ["web designing" , "frontend development" , "web development"],
+  strings: ["web designing", "frontend development", "web development"],
   loop: true,
   typeSpeed: 50,
   backSpeed: 25,
@@ -241,9 +246,6 @@ srtop.reveal(".experience .timeline .container", { interval: 400 });
 /* SCROLL CONTACT */
 srtop.reveal(".contact .container", { delay: 400 });
 srtop.reveal(".contact .container .form-group", { delay: 400 });
-
-
-
 
 // Skills.....................
 //     {
