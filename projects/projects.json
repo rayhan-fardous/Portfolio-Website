@@ -1,12 +1,62 @@
 [
   {
     "name": "Infinite Scroll",
-    "desc": "",
+    "desc": "This web app endlessly loads random Unsplash images as you scroll, creating an infinite visual feed.",
     "image": "Infinite-Scroll",
-    "category": "",
+    "category": "api",
     "links": {
-      "view": "",
-      "code": ""
+      "view": "https://rayhan-fardous.github.io/Infinite-Scroll/",
+      "code": "https://github.com/rayhan-fardous/Infinite-Scroll"
+    }
+  },
+  {
+    "name": "Motivational Quote App",
+    "desc": "A simple and elegant web application that displays motivational quotes to inspire users. Built with HTML, CSS, and JavaScript.",
+    "image": "Motivational-Quote-App",
+    "category": "api",
+    "links": {
+      "view": "https://rayhan-fardous.github.io/motivational-quote-app/",
+      "code": "https://github.com/rayhan-fardous/motivational-quote-app"
+    }
+  },
+  {
+    "name": "Music Player",
+    "desc": "This project is a clean, intuitive web-based music player, crafted with HTML, CSS, and JavaScript, enabling users to enjoy their favorite songs directly in the browser.",
+    "image": "Music-Player",
+    "category": "basicweb",
+    "links": {
+      "view": "https://rayhan-fardous.github.io/music-player/",
+      "code": "https://github.com/rayhan-fardous/music-player"
+    }
+  },
+  {
+    "name": "Custom Countdown",
+    "desc": "A simple and customizable countdown timer built using HTML, CSS, and JavaScript.",
+    "image": "Custom-Countdown",
+    "category": "basicweb",
+    "links": {
+      "view": "https://rayhan-fardous.github.io/custom-countdown/",
+      "code": "https://github.com/rayhan-fardous/custom-countdown"
+    }
+  },
+  {
+    "name": "Joke Teller App",
+    "desc": "A fun and interactive web application that tells jokes using a combination of the Joke API and Web Speech APIs.",
+    "image": "Joke-Teller",
+    "category": "api",
+    "links": {
+      "view": "https://rayhan-fardous.github.io/joke-teller/",
+      "code": "https://github.com/rayhan-fardous/joke-teller"
+    }
+  },
+  {
+    "name": "Typing Test",
+    "desc": "A simple web-based application to test and improve your typing speed and accuracy.",
+    "image": "Typing-Test",
+    "category": "basicweb",
+    "links": {
+      "view": "https://rayhan-fardous.github.io/typing-test/",
+      "code": "https://github.com/rayhan-fardous/typing-test"
     }
   }
 ]
